@@ -1,15 +1,17 @@
-name: ambsowiml
+name: ambsowiml2
 dependencies:
-  - matplotlib=3.9.2
-  - numpy=2.1.1
-  - scipy=1.13.0
-  - pandas=2.2.2
-  - scikit-learn=1.5.1
-  - seaborn=0.13.2
-  - pip=24.2
+  - python==3.11
+  - jupyterlab
+  - pip==24.2
   - _py-xgboost-mutex=2.0
   - libxgboost=2.1.1
   - py-xgboost=2.1.1
-  - pip:
+  - pip:  
+    - matplotlib=3.9.2
+    - numpy=2.1.1
+    - scipy=1.14.1
+    - pandas=2.2.2
+    - scikit-learn=1.5.1
+    - seaborn=0.13.2
     - predstorm==0.1.1
 
