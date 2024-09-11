@@ -1,4 +1,4 @@
-name: ambsowiml2
+name: ambsowiml
 dependencies:
   - python==3.11
   - jupyterlab
