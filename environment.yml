@@ -2,9 +2,9 @@ name: ambsowiml
 dependencies:
   - matplotlib=3.9.2
   - numpy=2.1.1
+  - scipy=1.13.0
   - pandas=2.2.2
   - scikit-learn=1.5.1
-  - scipy=1.13.0
   - seaborn=0.13.2
   - pip=24.2
   - _py-xgboost-mutex=2.0
